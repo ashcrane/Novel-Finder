@@ -1,5 +1,15 @@
 /*  Main Style */
+
+body, html{
+	height: 100%;
+}
+
 body{
+	background: url(../images/leather.png);
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+ 	-o-background-size: 100% 100%;
+ 	-webkit-background-size: 100% 100%;
 	background-color: #D9D1BC;
 	width:100%;
 }
@@ -9,7 +19,7 @@ h1{
 h2{
 	font-family: 'Goudy Bookletter 1911', serif;
     font-size: 20px;
-    color: #F0EBD8;
+    color: #182B47;
 }
 
 h3{
@@ -21,9 +31,10 @@ p{
 /* Button Styles */
 
 button{
+	width: 55%;
 	font-size: 1.4em;
-	background-color: #F0EBD8;
-	color: #182B47;
+	background-color: #182B47;
+	color: #D9D1BC;
 	border-radius: 25px;
 	font-weight: bold;
 }
@@ -42,39 +53,43 @@ input{
 /* Nav Style */
 
 .top-bar {
-    background: #182B47;
+    background: #D9D1BC;
 }
 
 .top-bar-section li a:not(.button) {
-    background: #182B47 !important; 
-     color: #D9D1BC !important; 
+    background: #D9D1BC !important; 
+     color: #182B47 !important; 
 
 }
 
 .top-bar-section li a:not(.button):hover {
-    background: #D9D1BC !important;
-     color: #182B47 !important;   
+    background: #182B47 !important;
+     color: #D9D1BC !important;   
 }
 
 .top-bar-section ul li.active > a {
-    background: #D9D1BC !important;
-     color: #182B47 !important;   
+    background: #182B47 !important;
+     color: #D9D1BC !important;   
 }
 
 .top-bar-section ul li.active > a:hover {
-    background: #D9D1BC !important; 
-    color: #182B47 !important;  
+    background: #182B47 !important; 
+    color: #D9D1BC !important;  
 }
 
 .name{
 	font-size: 30px;
+	color: #182B47;
 }
 /* Index.html Styles*/
 
 #searchsect{
 	width: 95%;
-    background:#182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
     margin: 20px;
+    margin-top: 40px;
     padding: 20px;
     padding-bottom: 70px;
     margin-bottom: 30px;
@@ -100,8 +115,10 @@ input{
 }
 #newreleases{
 	width:80%;
-	background-color: #182B47;
-	color:#D9D1BC;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+	background-color:#D9D1BC ;
+	color:#182B47;
 	padding:20px;
 	padding-left: 30px;
 	margin: 20px;
@@ -120,13 +137,15 @@ input{
 	text-align: center;
 	font-size: 2em;
 	margin-bottom: 30px;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #182B47;
 }
 
 /* Login.html */
 
 #login{
-	background-color: #182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	width:90%;
 	padding:20px;
 	margin:20px;
@@ -136,23 +155,25 @@ input{
 #login input{
 	width:100%;
     height:45px;
+    background-color: #182B47;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     border-radius: 25px;
+    color:#fff;
 }
 
 #login label{
 	font-size:1.5em;
 	text-align: center;
-	color: #D9D1BC;
+	color: #182B47;
 }
 
 #login h2{
 	font-size: 2.5em;
 	text-align: center;
 	margin-bottom: 30px;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #182B47;
 }
 
 #login button{
@@ -163,7 +184,9 @@ input{
 }
 
 .benefits{
-	background-color: #182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	width:90%;
 	padding:20px;
 	margin:20px;
@@ -173,11 +196,11 @@ input{
 .benefits h2{
 	text-align: center;
 	font-size: 2.5em;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #182B47;
 }
 
 .benefits li{
-	color:#D9D1BC;
+	color:#182B47;
 	position:relative;
 	left:15%;
 	font-size:1.3em;
@@ -192,7 +215,9 @@ input{
 /* Register.html Styles */
 
 #register{
-	background-color: #182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	width:90%;
 	padding:20px;
 	margin:20px;
@@ -201,22 +226,24 @@ input{
 
 #register input{
 	border-radius: 25px;
+	background-color: #182B47;
+	color:#fff;
     
 }
 
 #register input[type=checkbox] + label{
-	color:#D9D1BC;
+	color:#182B47;
 	font-size:1em;
 
 }
 #register label{
 	font-size:1.5em;
 	text-align: center;
-	color: #D9D1BC;
+	color: #182B47;
 }
 
 #register form{
-	color:#D9D1BC;
+	color:#182B47;
 	height:45px;
 	width:100%;
 }
@@ -236,12 +263,14 @@ input{
 /* results.html styles */
 
 aside{
-	background-color: #182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	padding:20px;
 	margin:20px;
 	width:170px;
 	text-align: left;
-	color: #F0EBD8;
+	color: #182B47;
 	margin-top: 40px;
 	float:left;
 	position: relative;
@@ -249,19 +278,21 @@ aside{
 	border-radius: 25px;
 }
 aside h1{
-	color:#F0EBD8;
-	border-bottom:1px solid #fff;
+	color:#182B47;
+	border-bottom:1px solid #182B47;
 }
 
 aside a{
-	color: #F0EBD8
+	color: #182B47;
 }
 aside a:hover{
-	color:#fff;
+	color:#808080;
 }
 
 #results{
-	background-color:#182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	width:900px;
 	padding: 20px;
 	margin:10px;
@@ -273,7 +304,7 @@ aside a:hover{
 #results h2{
 	font-size: 2em;
 	text-align: center;
-	border-bottom:1px solid #fff;
+	border-bottom:1px solid #182B47;
 	margin-bottom: 20px;
 }
 
@@ -288,25 +319,27 @@ aside a:hover{
 }
 
 #results a{
-	color: #F0EBD8;
+	color: #182B47;
 }
 
 #results a:hover{
-	color:#fff;
+	color:#808080;
 }
 
 
 /* Bookshelf Styles */
 
 #bookshelf{
-	background-color: #182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	padding:20px;
 	margin:10px;
 	text-align: center;
 	border-radius:25px;
 }
 #bookshelf h3{
-	color:#F0EBD8;
+	color:#182B47;
 	font-weight: bold;
 }
 
@@ -323,11 +356,13 @@ aside a:hover{
 }
 
 #info{
-	background-color: #182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	padding:20px;
 	margin:10px;
 	border-radius:25px;
-	color:#F0EBD8 ;
+	color:#182B47 ;
 	width:50%;
 	text-align: center;
 	position:relative;
@@ -337,7 +372,7 @@ aside a:hover{
 
 #info h2{
 	font-size:2em;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #182B47;
 	margin-bottom: 10px;
 }
 
@@ -359,23 +394,27 @@ aside a:hover{
 /* Book Detail Page Styles */
 
 #detail{
-	background-color: #182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	padding:20px;
 	margin:10px;
 	border-radius:25px;
-	color:#F0EBD8;
+	color:#182B47;
 	text-align: center;
 	margin-bottom:20px;
 }
 #detail h1{
-	color:#F0EBD8
+	color:#182B47
 }
 #format{
-	background-color: #182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	padding:20px;
 	margin:10px;
 	border-radius:25px;
-	color:#F0EBD8;
+	color:#182B47;
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -385,19 +424,21 @@ aside a:hover{
 }
 
 #format a{
-	color:#F0EBD8
+	color:#182B47
 }
 
 #format a:hover{
-	color:#fff;
+	color:#808080;
 }
 
 #recommended{
-	background-color: #182B47;
+	background:url(../images/paper.png) no-repeat;
+	background-size: 100% 100%;
+    background-color:#D9D1BC;
 	padding:20px;
 	margin:10px;
 	border-radius:25px;
-	color:#F0EBD8;
+	color:#182B47;
 }
 
 #recommended h2{
