@@ -39,6 +39,11 @@ button{
 	font-weight: bold;
 }
 
+button:hover{
+	background-color:#46658F;
+	color:#D9D1BC;
+}
+
 /* Form Styles */
 
 
@@ -114,7 +119,7 @@ input{
     font-size: 1.6em;
 }
 #newreleases{
-	width:80%;
+	width:95%;
 	background:url(../images/paper.png) no-repeat;
 	background-size: 100% 100%;
 	background-color:#D9D1BC ;
@@ -124,7 +129,7 @@ input{
 	margin: 20px;
 	border-radius: 25px;
 	position:relative;
-	left:60px;
+	left:5px;
 }
 
 #newreleases p{
@@ -178,9 +183,6 @@ input{
 
 #login button{
 	font-size: 1.6em;
-	position:relative;
-	left:35%;
-	width: 35%;
 }
 
 .benefits{
@@ -363,10 +365,10 @@ aside a:hover{
 	margin:10px;
 	border-radius:25px;
 	color:#182B47 ;
-	width:50%;
+	width:96%;
 	text-align: center;
 	position:relative;
-	left:25%;
+	left:1%;
 	margin-top: 0;
 }
 
