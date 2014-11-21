@@ -133,10 +133,9 @@ input{
 }
 
 #newreleases p{
-	text-align: center;
+	display: block;
+	margin: 0 auto;
 	font-size: 0.9em;
-	margin-bottom:0px;
-	margin-right:15px;
 }
 #newreleases h2{
 	text-align: center;
@@ -269,14 +268,12 @@ aside{
 	background-size: 100% 100%;
     background-color:#D9D1BC;
 	padding:20px;
-	margin:20px;
-	width:170px;
+	margin:10px;
+	margin-left: 0;
 	text-align: left;
 	color: #182B47;
 	margin-top: 40px;
 	float:left;
-	position: relative;
-	left:-75%;
 	border-radius: 25px;
 }
 aside h1{
@@ -295,28 +292,29 @@ aside a:hover{
 	background:url(../images/paper.png) no-repeat;
 	background-size: 100% 100%;
     background-color:#D9D1BC;
-	width:900px;
 	padding: 20px;
-	margin:10px;
+	margin:38px;
 	float:right;
-	margin-top: 40px;
 	border-radius: 25px;
 }
 
 #results h2{
 	font-size: 2em;
-	text-align: center;
+	text-align: left;
 	border-bottom:1px solid #182B47;
 	margin-bottom: 20px;
 }
 
 .results{
-	margin-left: 350px;
-	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	
 }
 
 
 #results p{
+	display: block;
 	text-align: center;
 }
 
