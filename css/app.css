@@ -31,7 +31,6 @@ p{
 /* Button Styles */
 
 button{
-	width: 55%;
 	font-size: 1.4em;
 	background-color: #182B47;
 	color: #D9D1BC;
@@ -327,7 +326,7 @@ aside a:hover{
 }
 
 
-/* Bookshelf Styles */
+/* Bookshelf Styles/Favorites.html*/
 
 #bookshelf{
 	background:url(../images/paper.png) no-repeat;
@@ -345,14 +344,11 @@ aside a:hover{
 
 #prev{
 	position:relative;
-	left:-25%;
-	width:18%;
+	margin: 0 auto;
 }
 
 #next{
 	position:relative;
-	left:25%;
-	width:18%;
 }
 
 #info{
